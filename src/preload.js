@@ -1,5 +1,3 @@
-alert(location.href);
-
 addEventListener("DOMContentLoaded", function(_e) {
 	const input = document.querySelector("input");
 	const webview = document.createElement("webview");

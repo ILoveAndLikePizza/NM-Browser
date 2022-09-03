@@ -1,0 +1,27 @@
+{
+  "name": "nm-browser",
+  "version": "1.0.0",
+  "description": "Official N&M Games Browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ILoveAndLikePiza/NM-Browser.git"
+  },
+  "keywords": [
+    "browser",
+    "nm-games"
+  ],
+  "author": "N&M Games",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ILoveAndLikePiza/NM-Browser/issues"
+  },
+  "homepage": "https://github.com/ILoveAndLikePiza/NM-Browser#readme",
+  "dependencies": {
+    "electron": "^20.1.1",
+    "electron-builder": "^23.3.3"
+  }
+}

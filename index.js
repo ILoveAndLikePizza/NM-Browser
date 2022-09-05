@@ -19,7 +19,7 @@ app.on("ready", function() {
     mainWindow.title = "Official N&M Games Browser";
     mainWindow.maximize();
     // mainWindow.removeMenu();
-    mainWindow.setIcon("icon.png");
+    mainWindow.setIcon("static/icon.png");
     mainWindow.loadFile("src/index.html");
     mainWindow.once("ready-to-show", function() {
         mainWindow.show();

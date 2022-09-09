@@ -11,13 +11,30 @@ body {
 	overflow: hidden;
 	font-family: nmfont !important;
 }
-input {
+#icon {
+	width: 0;
+}
+#icon img {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 2px;
+}
+#url input {
 	font: inherit;
 	background-color: transparent;
 	color: white;
-	width: 100%;
+	width: calc(100% - 7px);
 	height: 40px;
 	font-size: 20px;
+	outline: none;
+	border: 1px solid rgb(0,0,90);
+}
+#url input:hover {
+	border: 1px solid rgb(0,30,130);
+}
+#url input:focus {
+	border: 1px solid rgb(0,110,210);
 }
 webview {
 	width: 100%;

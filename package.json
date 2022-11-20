@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/ILoveAndLikePiza/NM-Browser/issues"
   },
+  "build": {
+	"appId": "NM-browser"
+  },
   "homepage": "https://github.com/ILoveAndLikePiza/NM-Browser#readme",
   "dependencies": {
     "electron": "^20.1.1",
